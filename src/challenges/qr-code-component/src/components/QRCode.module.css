@@ -1,0 +1,24 @@
+.panel {
+    width: 260px;
+    height: 400px;
+    background-color: white;
+    padding: 15px;
+    padding-bottom: 40px;
+    border-radius: 15px;
+    color: black;
+    font-size: 15px;
+}
+
+.heading {
+    font-size: 20px;
+}
+
+.description {
+    color: rgb(148, 147, 147);
+}
+
+.QRImage {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 15px;
+}
