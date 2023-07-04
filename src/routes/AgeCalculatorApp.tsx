@@ -1,4 +1,4 @@
-import App from "../challenges/qr-code-component/App"
+import App from "../challenges/age-calculator/App"
 
 export default function AgeCalculatorApp() {
     return <App />

@@ -38,6 +38,7 @@ export function Rating() {
                         }
                         setRating(num);
                     }}
+                    key={num}
                 >{num}</button>
             )}
         </div>

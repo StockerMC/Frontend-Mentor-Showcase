@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+html.calculator-app {
+  min-width: fit-content;
+}
+
+body.calculator-app {
+  background-color: #3b4664;
+  font-family: 'League Spartan', sans-serif;
+}
