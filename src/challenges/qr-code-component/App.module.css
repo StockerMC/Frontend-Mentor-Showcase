@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
 
-.qr-code-component {
+body.qr-code-component {
     background-color: #d5e1ef;
     font-family: 'Outfit', sans-serif;
 }

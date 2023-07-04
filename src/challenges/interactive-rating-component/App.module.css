@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+
+body.interactive-rating-component {
+  background-color: #141519;
+  font-family: 'Overpass', sans-serif;
+}

@@ -1,0 +1,60 @@
+.resultObject {
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 100%;
+    padding: 17px;
+    background-color: #e7e7e7;
+    box-shadow: inset 0 0 6px #777a7f;
+    margin: 20px;
+    transform: scale(200%, 200%)
+}
+
+.resultContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultOutputContainer {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.resultPickedMessage {
+    margin-bottom: 70px;
+}
+
+.resultOutputText {
+    color: white;
+    font-weight: 700;
+}
+
+.resultButton {
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+.rock {
+    border-color: #d23753;
+    padding: 22px;
+}
+
+.paper {
+    border-color: #4d68e8;
+    padding-right: 20px;
+}
+
+.scissors {
+    border-color: #eca829;
+}
+
+.lizard {
+    border-color: #8a57e4;
+}
+
+.spock {
+    border-color: #4ebdce;
+    padding-right: 20px;
+    padding-left: 27px;
+}

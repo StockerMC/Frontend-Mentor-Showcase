@@ -38,8 +38,8 @@ export const cards: ChallengeData[] = [
         <p>TEST</p>,
     ),
     new ChallengeData(
-        "rock-paper-scissors-game",
-        "Rock, Paper, Scissors game",
+        "rock-paper-scissors",
+        "Rock, Paper, Scissors",
         "A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet.",
         <p>TEST</p>,
     ),

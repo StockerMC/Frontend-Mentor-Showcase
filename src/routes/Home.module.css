@@ -1,8 +1,18 @@
+#root.home {
+  padding-top: 0;
+}
+
 .title {
     text-align: center;
     /* margin-top: 10px; */
     /* margin-top: -100px; */
-}
+    background: -webkit-linear-gradient(45deg, #3f54a3, #67bece 60%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    padding-bottom: .1em;
+}  
 
 .headerContainer {
     text-align: center;

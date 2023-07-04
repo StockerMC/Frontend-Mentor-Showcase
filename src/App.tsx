@@ -1,4 +1,3 @@
-import styles from './App.module.css'
 import './App.css'
 import {
   createBrowserRouter,
@@ -11,10 +10,11 @@ import {
 // import App from './App.tsx';
 // import Root from "./routes/Root";
 import ErrorPage from "./components/error-page";
-import { cards } from './constants';
-import { lazy, Suspense } from 'react';
 import QRCodeApp from './routes/QRCodeApp'
 import Home from './routes/Home';
+import AgeCalculatorApp from './routes/AgeCalculatorApp';
+import InteractiveRatingApp from './routes/InteractiveRatingApp';
+import RPSApp from './routes/RPSApp';
 
 // const router = createBrowserRouter([
 //   {
@@ -63,6 +63,9 @@ const router = createBrowserRouter([
   // { path: "*", Component: Root },
   { path: "/", Component: Home, errorElement: <ErrorPage />},
   { path: "/qr-code-component", Component: QRCodeApp, errorElement: <ErrorPage />},
+  { path: "/age-calculator-app", Component: AgeCalculatorApp, errorElement: <ErrorPage />},
+  { path: "/interactive-rating-component", Component: InteractiveRatingApp, errorElement: <ErrorPage />},
+  { path: "/rock-paper-scissors", Component: RPSApp, errorElement: <ErrorPage />},
 ]);
 
 function App() {

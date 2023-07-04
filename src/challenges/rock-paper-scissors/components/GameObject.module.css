@@ -1,0 +1,67 @@
+.object {
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 100%;
+    padding: 17px;
+    background-color: #e7e7e7;
+    box-shadow: inset 0 0 6px #777a7f;
+    margin: 20px;
+}
+
+.object:nth-child(3) {
+    margin-right: 4%;
+}
+
+.object:hover {
+    cursor: pointer;
+}
+
+/* .object:active {
+    background-color: rgb(147, 214, 147);
+} */
+
+.rock {
+    border-color: #d23753;
+    padding: 22px;
+}
+
+/* TODO: make cursor colours match the border colours */
+
+.rock:hover {
+    /* cursor: url('/icon-rock.svg'), none; */
+}
+
+.paper {
+    border-color: #4d68e8;
+    padding-right: 20px;
+}
+
+.paper:hover {
+    /* cursor: url('/icon-paper.svg'), none; */
+}
+
+.scissors {
+    border-color: #eca829;
+}
+
+.scissors:hover {
+    /* cursor: url('/icon-scissors.svg'), none; */
+}
+
+.lizard {
+    border-color: #8a57e4;
+}
+
+.lizard:hover {
+    /* cursor: url('/icon-lizard.svg'), none; */
+}
+
+.spock {
+    border-color: #4ebdce;
+    padding-right: 20px;
+    padding-left: 27px;
+}
+
+.spock:hover {
+    /* cursor: url('/icon-spock.svg'), none; */
+}

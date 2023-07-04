@@ -5,7 +5,10 @@ import { useEffect } from 'react';
 
 export default function Home() {
     useEffect(() => {
-        document.body.className = 'home';
+        document.body.className = styles['home'];
+        document.documentElement.className = styles['home'];
+        const root = document.getElementById("root");
+        if (root != null) root.className = styles['home'];
     }, []);
 
     return <>
