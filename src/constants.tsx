@@ -15,21 +15,21 @@ export const cards: ChallengeData[] = [
     new ChallengeData(
         "interactive-rating-component",
         "Interactive Rating Component",
-        "A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet.",
+        "This is a nice, small project to practice handling user interactions and updating the DOM. Perfect for anyone who has learned the basics of JavaScript!        ",
     ),
     new ChallengeData(
         "rock-paper-scissors",
         "Rock, Paper, Scissors",
-        "A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet.",
+        "This challenge will test your HTML, CSS and JavaScript skills. There's even a Rock, Paper, Scissors, Lizard, Spock version if you really want to challenge yourself.        ",
     ),
     new ChallengeData(
         "age-calculator-app",
         "Age Calculator App",
-        "A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet.",
+        "This challenge is designed to sharpen your JavaScript and form validation skills. Working with dates in JavaScript can be tricky, so this will be a nice test!        ",
     ),
     new ChallengeData(
         "calculator-app",
         "Calculator App",
-        "A perfect first challenge if you're new to HTML and CSS. The card layout doesn't shift, so it's ideal if you haven't learned about building responsive layouts yet.",
+        "This calculator app will be a great test of your CSS and JS skills especially. If you're wanting to practice using Grid, this challenge will be perfect for you!        ",
     ),
 ];
